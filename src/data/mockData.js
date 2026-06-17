@@ -69,18 +69,18 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Smart Hospital ERP Module",
-    description: "A tailored enterprise resource planning module built within the Odoo ecosystem to automate and optimize daily operations for healthcare facilities.",
-    technologies: ["Python", "Odoo", "XML", "PostgreSQL"],
+    title: "Smart Hospital ERP Module (Project Pulse)",
+    description: "A tailored enterprise resource planning module built within the Odoo ecosystem to automate and optimize daily operations for healthcare facilities, featuring an automated emergency triage engine connected to simulated IoT devices.",
+    technologies: ["Python", "Odoo", "XML", "PostgreSQL", "RESTful APIs"],
     features: [
-      "Centralized patient record management and medical history tracking.",
-      "Automated appointment scheduling system mapped to doctor availability.",
-      "Integrated billing and invoicing for medical services and prescriptions.",
-      "Custom reporting tools for hospital administration."
+      "Full-Stack ERP Customization: Developed a custom Python/XML Odoo module ('Project Pulse') to automate emergency medical triage based on real-time simulated IoT vitals.",
+      "Security Architecture: Designed a multi-tier Access Rights matrix for a Smart Mobile Hospital, enforcing Segregation of Duties (SoD) across 8+ functional roles.",
+      "Logistics Engineering: Configured decentralized inventory and fleet management for mobile medical units, incorporating 3-way matching and Lot/Batch expiration tracking.",
+      "Disaster Resilience: Repurposed CRM and PoS engines to build internet-independent tele-triage and medication dispensary systems for disconnected disaster zones."
     ],
     duration: "May 2024 - Jul 2024",
     github: "https://github.com/MohammedAli2222/smart-hospital-odoo",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop" // صورة تعكس التكنولوجيا الطبية والمستشفيات
+    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop"
   },
   {
     id: 4,
